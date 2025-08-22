@@ -5,5 +5,11 @@ setup(
     version="0.0.0",
     author="Promit",
     author_email="promit8228@gmail.com",
-    packages=find_packages()
+    packages=find_packages(),
+    install_requires=[
+        'pandas',
+        'numpy',
+        'PyYAML',
+        'dill'
+    ]
 )
